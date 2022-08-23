@@ -3,12 +3,12 @@
 ## A starting point for a dd generator.
 This is far from complete, but it can serve as a framework for creating the generator.
 
-##Usage
+## Usage
 There's a small test harness you can use to generate a partial monster to invoke it call:
 
 > python3 run.py
 
-##Overview
+## Overview
 The core of the application is based on "generators". Right now there is one primary generator, the monster_generator.
 
 The core monster is a class that get's created by reading the JSON "abominitation.json" file found in the data folder, however you can pass any monster or character definition file that matches the schema.
