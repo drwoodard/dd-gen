@@ -21,7 +21,7 @@
         },
         {
         "index" : "2",
-          "outcome" : "A {heads} headed humanoid and one body. He is at full health with {hit_points} HP.",
+          "outcome" : "A {heads} headed humanoid with one body. He is at full health with {hit_points} HP.",
           "actions" : [
             {
                 "dice" : 1,

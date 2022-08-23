@@ -51,9 +51,28 @@ class Monster:
             raise AttributeError('Hit point values must be between 1 and 60.')
 
 
+    @property
+    def armor_class(self) -> int:
+        return self.__armor_class
+
+    @armor_class.setter
+    def armor_class(self, value: int):
+        if value > 0:
+            self.__armor_class = value
+        else:
+            raise AttributeError("Armor class must be greater than zero.")
+
+
+## used to return a JSON representation of the Monster
 class MonsterEncoder(JSONEncoder):
     def default(self, monster):
         if(isinstance(monster, Monster)):
-            return { "name" : monster.name, "description" : monster.description, "hit_points" : monster.hit_points, "heads" : monster.heads} 
-
+            return { 
+                "name" : monster.name, 
+                "description" : monster.description, 
+                "hit_points" : monster.hit_points, 
+                "heads" : monster.heads,
+                "armor_class" : monster.armor_class
+                } 
+        
         return super().default(monster)

@@ -1,6 +1,7 @@
 import re
 import string
 
+#A basic string tokenizer that allows for object value replacement.
 class StringTokenizer:
 
     @staticmethod

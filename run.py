@@ -8,8 +8,6 @@ os.system('clear')
 generator = MonsterGenerator()
 monster = generator.create("abomination", "random")
 
-#monster.description = StringTokenizer.tokenize(monster.description, monster)
-
 print(json.dumps(monster, cls=MonsterEncoder, indent=2))
 
 

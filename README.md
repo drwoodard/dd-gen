@@ -1,2 +1,2 @@
 # dd-gen
-An experiment I'm working on with my son.
+Use run.py as a test harness for the application, by running > python3 run.pi
