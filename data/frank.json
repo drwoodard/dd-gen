@@ -1,0 +1,23 @@
+{
+    "name" : "Frank",
+    "description" : "A description",
+    "hit-points" : "40",
+    "armor-class" : "14",
+    "strength" : "3",
+    "dexterity": "8",
+    "charisma" : "4",
+    "intelligence" : "1",
+    "wisdom" : "2",
+    "constitution" : "18",
+    "abilities" : [
+         {
+            "name" : "false appearance",
+            "description" : "You can't tell what you're looking at."
+        },
+        {
+            "name" : "Aggressive",
+            "description" : "Name says it."
+        }
+    ]
+
+}

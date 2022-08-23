@@ -1,0 +1,69 @@
+{
+    "shape" : {
+      "dice" : {
+        "times" : 1,
+        "sides" : 8
+      },
+      "shapes" : [
+        {
+          "index" : 1,
+          "outcome" : "One Humanoid head and body.",
+          "actions" : [
+            {
+                "dice" : 3,
+                "sides" : 8,
+                "attribute" : {
+                    "name" : "hit_points",
+                    "modifier": 2
+                }
+            }
+          ]   
+        },
+        {
+        "index" : "2",
+          "outcome" : "f'A {monster.heads} humanoid and one body.'",
+          "actions" : [
+            {
+                "dice" : 1,
+                "sides" : 12,
+                "attribute" : {
+                    "name" : "heads",
+                    "modifier": 2
+                }
+            },
+            {
+                "dice" : 3,
+                "sides" : 8,
+                "attribute" : {
+                    "name" : "hit_points",
+                    "modifier" : "heads"
+                }
+            }
+          ]   
+
+        }
+      ]
+    },
+    "size" : {
+
+    },
+    "skin" : {
+
+    },
+    "initative" :{
+
+    },
+    "legs" :{
+
+    },
+    "limbs" : {
+
+    },
+    "special-features": {
+
+    },
+    "ooze" : {
+
+    }
+
+}
