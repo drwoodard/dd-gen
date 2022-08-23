@@ -13,7 +13,7 @@ class Monster:
         self.__description = ''
         self.__hit_points = 0
         self.__armor_class = 0
-        self.__strentgh = 0
+        self.strength = 0
         self.__dexterity = 0
         self.__intelligence = 0
         self.__wisdom = 0
@@ -72,7 +72,8 @@ class MonsterEncoder(JSONEncoder):
                 "description" : monster.description, 
                 "hit_points" : monster.hit_points, 
                 "heads" : monster.heads,
-                "armor_class" : monster.armor_class
+                "armor_class" : monster.armor_class,
+                "strength" : monster.strength
                 } 
         
         return super().default(monster)

@@ -36,7 +36,7 @@ class MonsterGenerator:
 
         #initialize the dice to determine which 
         index = Dice.roll(sides, times)
-        index = index if index < 3 else 1 #DELETE THIS LINE. It's used for testing since we don't have all monsters defined
+        index = index if index < 4 else 1 #DELETE THIS LINE. It's used for testing since we don't have all monsters defined
         return index
 
     def __fetch_modifier(self, monster, modifier):

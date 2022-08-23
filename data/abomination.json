@@ -1,69 +1,83 @@
 {
-    "shape" : {
-      "dice" : {
-        "times" : 1,
-        "sides" : 8
+  "shape": {
+    "dice": {
+      "times": 1,
+      "sides": 8
+    },
+    "shapes": [
+      {
+        "index": 1,
+        "outcome": "One Humanoid head and body. At full health he has {hit_points} hit points.",
+        "actions": [
+          {
+            "dice": 3,
+            "sides": 8,
+            "attribute": {
+              "name": "hit_points",
+              "modifier": 2
+            }
+          }
+        ]
       },
-      "shapes" : [
-        {
-          "index" : 1,
-          "outcome" : "One Humanoid head and body. At full health he has {hit_points} hit points.",
-          "actions" : [
-            {
-                "dice" : 3,
-                "sides" : 8,
-                "attribute" : {
-                    "name" : "hit_points",
-                    "modifier": 2
-                }
+      {
+        "index": "2",
+        "outcome": "A {heads} headed humanoid with one body. He is at full health with {hit_points} HP.",
+        "actions": [
+          {
+            "dice": 1,
+            "sides": 12,
+            "attribute": {
+              "name": "heads",
+              "modifier": 2
             }
-          ]   
-        },
-        {
-        "index" : "2",
-          "outcome" : "A {heads} headed humanoid with one body. He is at full health with {hit_points} HP.",
-          "actions" : [
-            {
-                "dice" : 1,
-                "sides" : 12,
-                "attribute" : {
-                    "name" : "heads",
-                    "modifier": 2
-                }
-            },
-            {
-                "dice" : 3,
-                "sides" : 8,
-                "attribute" : {
-                    "name" : "hit_points",
-                    "modifier" : "heads"
-                }
+          },
+          {
+            "dice": 3,
+            "sides": 8,
+            "attribute": {
+              "name": "hit_points",
+              "modifier": "heads"
             }
-          ]   
-
-        }
-      ]
-    },
-    "size" : {
-
-    },
-    "skin" : {
-
-    },
-    "initative" :{
-
-    },
-    "legs" :{
-
-    },
-    "limbs" : {
-
-    },
-    "special-features": {
-
-    },
-    "ooze" : {
-
-    }
-
+          }
+        ]
+      },
+      {
+        "index": "3",
+        "outcome": "A {heads} headed humanoid. He is at full health with {hit_points} HP and {strength} strength.",
+        "actions": [
+          {
+            "dice": 1,
+            "sides": 12,
+            "attribute": {
+              "name": "heads",
+              "modifier": 2
+            }
+          },
+          {
+            "dice": 2,
+            "sides": 12,
+            "attribute": {
+              "name": "strength",
+              "modifier": 6
+            }
+          },
+          {
+            "dice": 3,
+            "sides": 8,
+            "attribute": {
+              "name": "hit_points",
+              "modifier": "heads"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "size": {},
+  "skin": {},
+  "initative": {},
+  "legs": {},
+  "limbs": {},
+  "special-features": {},
+  "ooze": {}
 }
