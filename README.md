@@ -13,7 +13,7 @@ The core of the application is based on "generators". Right now there is one pri
 
 The core monster is a class that get's created by reading the JSON "abominitation.json" file found in the data folder, however you can pass any monster or character definition file that matches the schema.
 
-There may be other character type generators in the future as well as environment, room and a world generator!
+There may be other character type generators in the future as well as environment, room and a world generator.
 
 I've also included a sample "random name generator" I took a sample of creature names from here https://5thsrd.org/gamemaster_rules/monster_indexes/monsters_by_name/
 
