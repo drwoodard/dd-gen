@@ -7,7 +7,7 @@
       "shapes" : [
         {
           "index" : 1,
-          "outcome" : "One Humanoid head and body.",
+          "outcome" : "One Humanoid head and body. At full health he has {hit_points} hit points.",
           "actions" : [
             {
                 "dice" : 3,
@@ -21,7 +21,7 @@
         },
         {
         "index" : "2",
-          "outcome" : "f'A {monster.heads} humanoid and one body.'",
+          "outcome" : "A {heads} headed humanoid and one body. He is at full health with {hit_points} HP.",
           "actions" : [
             {
                 "dice" : 1,
