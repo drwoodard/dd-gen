@@ -9,7 +9,7 @@ There's a small test harness you can use to generate a partial monster to invoke
 > python3 run.py
 
 ## Overview
-The core of the application is based on "generators". Right now there is one primary generator, the monster_generator!
+The core of the application is based on "generators". Right now there is one primary generator, the monster_generator.
 
 The core monster is a class that get's created by reading the JSON "abominitation.json" file found in the data folder, however you can pass any monster or character definition file that matches the schema.
 
