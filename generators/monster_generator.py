@@ -30,7 +30,7 @@ class MonsterGenerator:
         times = int(shape_di.times)
         sides = int(shape_di.sides)
 
-        #this should probably be moved to a separate fuction
+        #TODO: this should probably be moved to a separate fuction
         shape_index = Dice.roll(sides, times)
         shape_index = shape_index if shape_index < 3 else 1 #DELETE THIS LINE. It's used for testing since we don't have all monsters defined
         name = monster_name if monster_name != 'random' else MonsterNameGenerator.generate()
