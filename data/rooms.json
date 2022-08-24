@@ -1,0 +1,24 @@
+[
+    {
+        "name" : "",
+        "type" : "",
+        "short_description" : "",
+        "description" : "",
+        "walls" : [
+            {
+                "name" : "",
+                "direction" : "",
+                "description" : "",
+                "exits" : [
+                    {
+                        "name" : "",
+                        "direction" : "nsewnwneud",
+                        "next_room" : "",
+                        "description" : "",
+                        "status" : "locked|unlocked|open|closed|enchanted"
+                    }
+                ]
+            }
+        ]
+    }
+]
