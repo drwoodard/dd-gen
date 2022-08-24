@@ -20,7 +20,7 @@
         ]
       },
       {
-        "index": "2",
+        "index": 2,
         "outcome": "A {heads} headed humanoid with one body. He is at full health with {hit_points} HP.",
         "actions": [
           {
