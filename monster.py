@@ -14,11 +14,11 @@ class Monster:
         self.__hit_points = 0
         self.__armor_class = 0
         self.strength = 0
-        self.__dexterity = 0
-        self.__intelligence = 0
-        self.__wisdom = 0
-        self.__constitution = 0
-        self.__heads = 1
+        self.dexterity = 0
+        self.intelligence = 0
+        self.wisdom = 0
+        self.constitution = 0
+        self.heads = 1
 
     @property
     def description(self) -> string:
@@ -73,7 +73,11 @@ class MonsterEncoder(JSONEncoder):
                 "hit_points" : monster.hit_points, 
                 "heads" : monster.heads,
                 "armor_class" : monster.armor_class,
-                "strength" : monster.strength
+                "strength" : monster.strength,
+                "dexterity" : monster.dexterity,
+                "intelligence" : monster.intelligence,
+                "wisdom" : monster.wisdom,
+                "constitution" : monster.constitution
                 } 
         
         return super().default(monster)

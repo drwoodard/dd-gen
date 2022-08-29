@@ -1,0 +1,77 @@
+{
+    "name" : "",
+    "description" : "",
+    "background" : "",
+    "features" : [
+        {
+            "name" :"",
+            "description" :""
+        }
+    ],
+    "stats" : {
+        "armor_class" : "",
+        "hit_points": "",
+        "hit_dice" : "",
+        "speed" : "",
+        "strength" : "",
+        "dexterity" : "",
+        "constitution" : "",
+        "intelligence" : "",
+        "wisdom" : "",
+        "charisma" : ""
+    },
+    "proficiencies" : {
+        "bonus" : "",
+        "proficiency" : [
+            {
+                "name" : "",
+                "value" : "",
+                "modifiers" : [
+                    {
+                        "name" : "",
+                        "value" : ""
+                    }
+                ]
+            }
+        ]
+    },
+    "equipment": [
+        {
+            "name" : "",
+            "type" : "",
+            "value" : "",
+            "modifiers" : [
+                {
+                    "name" : "",
+                    "value" : ""
+                }
+            ]
+        }
+    ],
+    "senses" : [
+        {
+            "name" : "",
+            "level" : ""
+        }
+    ],
+    "languages" : [
+        {
+            "name" : "",
+            "value" : ""
+        }
+    ],
+    "actions" : [
+        {
+            "name" : "",
+            "type" : "standard|bonus",
+            "value" : ""
+        }
+    ],
+    "reactions" : [
+        {
+            "name" : "",
+            "value" : ""
+        }
+    ]
+
+}
