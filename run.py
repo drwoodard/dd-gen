@@ -18,7 +18,7 @@ for x in range(3):
 print(json.dumps(monsters, cls=MonsterEncoder, indent=2))
 
 print(CharacterNameGenerator.generate())
-
+print('hi')
 
 
 
